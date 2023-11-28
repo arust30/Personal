@@ -1,3 +1,8 @@
 # Personal
 
-This is the first commit of my personal monorepo
+Directory Structure:
+```
+-Personal/
+    -andrewrust.com/
+    -tedrust.com/
+```
