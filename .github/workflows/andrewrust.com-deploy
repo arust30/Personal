@@ -1,0 +1,29 @@
+name: Deploy andrewrust.com Website
+
+on:
+  push:
+    branches: [ "main" ]
+    paths:
+      - 'Personal/andrewrust.com/**'
+  workflow_dispatch:
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Install dependencies
+      run: npm install
+      working-directory: Personal/andrewrust.com/
+
+    - name: Build
+      run: npm run build
+      working-directory: Personal/andrewrust.com/
+
+    - name: Deploy
+      uses: JamesIves/github-pages-deploy-action@4.1.4
+      with:
+        branch: gh-pages-andrewrust # Deploying to a separate branch
+        folder: Personal/andrewrust.com/build # Folder to deploy
