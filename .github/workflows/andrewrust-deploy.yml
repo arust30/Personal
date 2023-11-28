@@ -25,4 +25,4 @@ jobs:
       uses: JamesIves/github-pages-deploy-action@4.1.4
       with:
         branch: gh-pages-andrewrust # Deploying to a separate branch
-        folder: Personal/andrewrust.com//build # Folder to deploy
+        folder: Personal/andrewrust.com/build # Folder to deploy
