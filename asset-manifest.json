@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e9d045fb.css",
+    "main.js": "/static/js/main.ad7c5aae.js",
+    "static/js/787.a9eedf41.chunk.js": "/static/js/787.a9eedf41.chunk.js",
+    "static/media/churchbackground.jpg": "/static/media/churchbackground.0da01973637ae8170ad0.jpg",
+    "static/media/Andrew.png": "/static/media/Andrew.ca6a4ad473c54cd18c26.png",
+    "static/media/Mom.jpg": "/static/media/Mom.e3d7a88f71c70bbdbc92.jpg",
+    "static/media/ted2.jpg": "/static/media/ted2.080077532e68e9420576.jpg",
+    "static/media/Butterscotch.jpg": "/static/media/Butterscotch.e40e107264bbef21965a.jpg",
+    "static/media/Ted.png": "/static/media/Ted.ac04894aa7ea28268f0a.png",
+    "static/media/tedandctr.jpg": "/static/media/tedandctr.cf926c4e814b8b8a93e9.jpg",
+    "static/media/tedandkids.jpg": "/static/media/tedandkids.1cff677de9e5129dc6c8.jpg",
+    "static/media/tedheadshot.png": "/static/media/tedheadshot.4ea5342231b8c03f01ba.png",
+    "static/media/tedsenior.jpg": "/static/media/tedsenior.136db10bd5f983ea650c.jpg",
+    "static/media/tedbevandfreind.jpg": "/static/media/tedbevandfreind.6009201a51564fa9ea6f.jpg",
+    "static/media/tedrustlogocircle.png": "/static/media/tedrustlogocircle.0777bc53aa54ddcf9aa5.png",
+    "static/media/tedemail.png": "/static/media/tedemail.9fb46f61db995b6e5909.png",
+    "static/media/tedphone.png": "/static/media/tedphone.818a57cd9cda0aea0e3a.png",
+    "index.html": "/index.html",
+    "main.e9d045fb.css.map": "/static/css/main.e9d045fb.css.map",
+    "main.ad7c5aae.js.map": "/static/js/main.ad7c5aae.js.map",
+    "787.a9eedf41.chunk.js.map": "/static/js/787.a9eedf41.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e9d045fb.css",
+    "static/js/main.ad7c5aae.js"
+  ]
+}
