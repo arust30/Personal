@@ -2,9 +2,10 @@ name: Deploy andrewrust.com Website
 
 on:
   push:
-    branches: [ main ]
+    branches: [ "main" ]
     paths:
       - 'Personal/andrewrust.com/**'
+  workflow_dispatch:
 
 jobs:
   build-and-deploy:
