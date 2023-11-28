@@ -2,9 +2,10 @@ name: Deploy tedrust.com Website
 
 on:
   push:
-    branches: [ main ]
+    branches: [ "main" ]
     paths:
       - 'Personal/tedrust.com/**'
+  workflow_dispatch:
 
 jobs:
   build-and-deploy:
@@ -15,11 +16,11 @@ jobs:
 
     - name: Install dependencies
       run: npm install
-      working-directory: Personal/tedrust.com
+      working-directory: Personal/tedrust.com/
 
     - name: Build
       run: npm run build
-      working-directory: Personal/tedrust.com
+      working-directory: Personal/tedrust.com/
 
     - name: Deploy
       uses: JamesIves/github-pages-deploy-action@4.1.4
