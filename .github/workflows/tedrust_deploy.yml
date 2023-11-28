@@ -27,3 +27,4 @@ jobs:
       with:
         branch: gh-pages-tedrust # Deploying to a separate branch
         folder: tedrust.com/build # Folder to deploy
+        token: ${{ secrets.GITHUB_TOKEN }} # Use the built-in GitHub token
