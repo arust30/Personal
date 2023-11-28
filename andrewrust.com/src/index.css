@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300;400;500;600&display=swap');
+
+html {
+    background: radial-gradient(
+      ellipse at center,
+      transparent 10%,
+      transparent 50%,
+      #2081c3 140%
+    );
+  }

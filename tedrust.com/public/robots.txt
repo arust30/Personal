@@ -1,0 +1,3 @@
+# https://www.tedrust.com/public.html
+User-agent: *
+Disallow:

@@ -1,0 +1,57 @@
+.wave {
+  background: url(/src/images/wave.svg) repeat-x;
+  position: absolute;
+  bottom: 20%;
+  width: 100vw;
+  height: 20%;
+  animation: wave 7s cubic-bezier(0.36, 0.45, 0.63, 0.53) infinite;
+  transform: translate3d(0, 0, 0);
+}
+
+.wave:nth-of-type(2) {
+  bottom: 18%;
+  animation: wave 7s cubic-bezier(0.36, 0.45, 0.63, 0.53) -0.125s infinite,
+    swell 7s ease -1.25s infinite;
+  opacity: 1;
+}
+
+/* @keyframes wave {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+} */
+@keyframes swell {
+  0%,
+  100% {
+    transform: translate3d(0, -25px, 0);
+  }
+  50% {
+    transform: translate3d(0, 5px, 0);
+  }
+}
+
+#main {
+  scroll-behavior: smooth;
+}
+
+/* .reversed-wave {
+  background: url(/src/images/wave.svg) repeat-x;
+  position: absolute;
+  rotate: 180deg;
+  bottom: 0%;
+  width: 300vw;
+  height: 20%;
+  animation: wave 7s cubic-bezier(0.36, 0.45, 0.63, 0.53) infinite;
+  transform: translate3d(0, 0, 0);
+}
+
+.reversed-wave:nth-of-type(2) {
+  bottom: 18%;
+  rotate: 180deg;
+  animation: wave 7s cubic-bezier(0.36, 0.45, 0.63, 0.53) -0.125s infinite,
+    swell 7s ease -1.25s infinite;
+  opacity: 1;
+} */
