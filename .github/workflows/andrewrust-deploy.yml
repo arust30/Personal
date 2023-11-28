@@ -16,11 +16,11 @@ jobs:
 
     - name: Install dependencies
       run: npm install
-      working-directory: Personal/andrewrust.com/
+      working-directory: andrewrust.com/
 
     - name: Build
       run: npm run build
-      working-directory: Personal/andrewrust.com/
+      working-directory: andrewrust.com/
 
     - name: Deploy
       uses: JamesIves/github-pages-deploy-action@4.1.4
