@@ -42,7 +42,9 @@ Personal
 	- Updated Portfolio Website - Minimal & Clean
 	- Kali Linux Tooling(learn 10 tools, some basic goals)
 	- (Optional) Cross-Device Secure, local File Sharing (Keepass db, yubikey)
-
+    - Configure Pinefone, Yubikey, Music Player,
+    - Configure own email server/ mini NAS
+    - 
 Professional
  - CEID Stuff
  - Columbia Classes(1)
