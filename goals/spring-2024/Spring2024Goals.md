@@ -1,6 +1,6 @@
 # Spring 2024 Goals
 
-January 8th, 2024 - May 24th, 2024(20 weeks)
+January 8th, 2024 - May 6th, 2024(18 weeks)
 
 ByteSize
  - Organize Repositories & Clean Files
@@ -31,10 +31,11 @@ RustyBucketz30 Goals
         
 Personal
  - Organize GitHub repositories
- - Lifting Regimes 
+ - Lifting Regimes
+    - 2 week plan - 5x/week
  	- 4 week plan - 6x/week
 	- 8 week plan - 4x/week
-	- 6 week plan - 5x/week
+	- 2 week plan - 5x/week
  - Books
  	- Mediations
 	- 
@@ -44,7 +45,9 @@ Personal
 	- (Optional) Cross-Device Secure, local File Sharing (Keepass db, yubikey)
     - Configure Pinefone, Yubikey, Music Player,
     - Configure own email server/ mini NAS
-    - 
+    - Configure IRC Client & Channels
+    -
+
 Professional
  - CEID Stuff
  - Columbia Classes(1)
